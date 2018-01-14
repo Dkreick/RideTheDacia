@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: cfa1ce680b998cf46a596de3fd9aa1d7
-timeCreated: 1515813101
+timeCreated: 1515972219
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: CarDacia
     21300002: Wheel1
+    21300004: floorGrass
+    21300006: floorSand
+    21300008: floorAsphalt
+    21300010: CarRenault4
+    21300012: Wheel2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -110,7 +115,7 @@ TextureImporter:
         width: 624
         height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -123,6 +128,76 @@ TextureImporter:
         y: 0
         width: 87
         height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: floorGrass
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: floorSand
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: floorAsphalt
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2016
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CarRenault4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1656
+        width: 502
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wheel2
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 0
+        width: 86
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
