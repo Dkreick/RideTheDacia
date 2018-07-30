@@ -119,7 +119,7 @@ public class MeshGen : MonoBehaviour
             Mesh mesh = filter.mesh;
             GenerateSegment(index, ref mesh);
             
-            filter.transform.position = new Vector3(index * SegmentLength, 0, 0);
+            filter.transform.position = new Vector3(index * SegmentLength, -4, 0);
             filter.gameObject.SetActive(true);
             
             // register as segment
