@@ -65,7 +65,7 @@ public class MeshGen : MonoBehaviour
         for (int i = 0; i < MeshCount; ++i)
         {
             MeshFilter filter = Instantiate(SegmentPrefab);
-        
+            
             Mesh mesh = filter.mesh;
             mesh.Clear();
             
@@ -73,6 +73,7 @@ public class MeshGen : MonoBehaviour
             mesh.triangles = triangles;
             
             filter.gameObject.SetActive(false);
+            filter.gameObject.AddComponent<MeshCollider>();
             _freeMeshFilters.Add(filter);
         }
     }
