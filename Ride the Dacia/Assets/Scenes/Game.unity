@@ -113,38 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &328723238 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1008824351590628, guid: a7eb85e172835974d9239429c2e96afc,
-    type: 2}
-  m_PrefabInternal: {fileID: 654769328}
---- !u!65 &328723239
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 328723238}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 0.5, z: 1}
-  m_Center: {x: -0.75, y: 1.4, z: 0}
---- !u!54 &328723240
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 328723238}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &350717452
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +281,7 @@ RectTransform:
   m_Children:
   - {fileID: 855439923}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -357,11 +325,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4058375308540418, guid: a7eb85e172835974d9239429c2e96afc, type: 2}
       propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1008824351590628, guid: a7eb85e172835974d9239429c2e96afc, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7eb85e172835974d9239429c2e96afc, type: 2}
